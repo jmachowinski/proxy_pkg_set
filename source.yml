@@ -2,9 +2,9 @@ name: proxy_stuff
 
 version_control:
     - tools/orogen:
-      github: jmachowinski/$PACKAGE_BASENAME
+      spacegit: scotch/$PACKAGE_BASENAME
       branch: $ROCK_FLAVOR
     - tools/orocos_cpp:
-      github: jmachowinski/$PACKAGE_BASENAME
+      spacegit: scotch/$PACKAGE_BASENAME
       branch: master
 
