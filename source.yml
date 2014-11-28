@@ -5,6 +5,6 @@ version_control:
       spacegit: scotch/$PACKAGE_BASENAME
       branch: $ROCK_FLAVOR
     - tools/orocos_cpp:
-      spacegit: rock-dfki/$PACKAGE_BASENAME
+      spacegit: rock-dfki/orocos-cpp
       branch: master
 
