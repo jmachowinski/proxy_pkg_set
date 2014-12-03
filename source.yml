@@ -7,4 +7,7 @@ version_control:
     - tools/orocos_cpp:
       spacegit: rock-dfki/orocos-cpp
       branch: master
-
+    - tools/smurf:
+      spacegit: scotch/smurftests
+      branch: master
+    

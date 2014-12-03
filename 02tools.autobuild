@@ -2,4 +2,6 @@ in_flavor 'rock1408' do
     ruby_package  'tools/orogen'
 
     cmake_package 'tools/orocos_cpp'
+    cmake_package 'tools/smurf'
 end
+
