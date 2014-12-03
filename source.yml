@@ -1,19 +1,22 @@
 name: proxy_stuff
 
 version_control:
-    - tools/orogen:
-      spacegit: scotch/$PACKAGE_BASENAME
-      branch: $ROCK_FLAVOR
     - tools/orocos_cpp:
       spacegit: rock-dfki/orocos-cpp
       branch: master
+
     - tools/smurf:
       spacegit: scotch/smurftests
       branch: master
+
+overrides:
+    - tools/orogen:
+      spacegit: scotch/$PACKAGE_BASENAME
+      branch: $ROCK_FLAVOR
     - drivers/transformer:
       github: rock-core/drivers-$PACKAGE_BASENAME
       branch: orocos_cpp
     - drivers/orogen/transformer:
-      github: rock-core/drivers-$PACKAGE_BASENAME
+      github: rock-core/drivers-orogen-$PACKAGE_BASENAME
       branch: orocos_cpp
     
