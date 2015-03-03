@@ -5,6 +5,10 @@ version_control:
       spacegit: rock-dfki/orocos-cpp
       branch: master
 
+    - tools/orocos_cpp_base:
+      spacegit: rock-dfki/orocos-cpp_base
+      branch: master
+
     - tools/smurf:
       spacegit: scotch/smurftests
       branch: master
@@ -12,7 +16,7 @@ version_control:
 overrides:
     - tools/orogen:
       spacegit: scotch/$PACKAGE_BASENAME
-      branch: $ROCK_FLAVOR
+      branch: proxies
     - drivers/transformer:
       github: rock-core/drivers-$PACKAGE_BASENAME
       branch: orocos_cpp
