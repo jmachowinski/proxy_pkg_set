@@ -2,5 +2,9 @@ in_flavor 'rock1408' do
     cmake_package 'tools/orocos_cpp'
     cmake_package 'tools/orocos_cpp_base'
     cmake_package 'tools/smurf'
+
+    cmake_package 'simulation/smurf_parser'
+    cmake_package 'simulation/configmaps'
 end
+
 

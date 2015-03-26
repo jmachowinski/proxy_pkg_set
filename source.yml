@@ -13,6 +13,14 @@ version_control:
       spacegit: scotch/smurftests
       branch: master
 
+    - simulation/smurf_parser:
+      github: rock-simulation/smurf_parser
+      branch: master
+
+    - simulation/configmaps:
+      github: rock-simulation/configmaps
+      branch: master
+
 overrides:
     - tools/orogen:
       spacegit: scotch/$PACKAGE_BASENAME
