@@ -10,7 +10,7 @@ version_control:
       branch: master
 
     - tools/smurf:
-      spacegit: scotch/smurftests
+      spacegit: rock-dfki/smurf
       branch: master
 
     - simulation/smurf_parser:
