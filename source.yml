@@ -2,11 +2,11 @@ name: proxy_stuff
 
 version_control:
     - tools/orocos_cpp:
-      spacegit: rock-dfki/orocos-cpp
+      spacegit: rock-dfki/orocos_cpp
       branch: master
 
     - tools/orocos_cpp_base:
-      spacegit: rock-dfki/orocos-cpp_base
+      spacegit: rock-dfki/orocos_cpp_base
       branch: master
 
     - tools/smurf:
